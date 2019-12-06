@@ -28,7 +28,7 @@ include(dirname(__FILE__) . '/config_instalador.php');
 /** O nome do banco de dados do WordPress */
 define('DB_NAME', DB_NOME);
 
-/** Usuário do banco de dados MySQL */
+/** Usuário do banco de dados MySQL */fdgfg
 define('DB_USER', DB_USUARIO);
 
 /** Senha do banco de dados MySQL */
@@ -41,6 +41,8 @@ define('DB_HOST', DB_SERVIDOR);
 define('DB_CHARSET', 'utf8mb4');
 
 /** O tipo de Collate do banco de dados. Não altere isso se tiver dúvidas. */
+define('DB_COLLATE', '');
+define('DB_COLLATE', '');
 define('DB_COLLATE', '');
 
 /**#@+
